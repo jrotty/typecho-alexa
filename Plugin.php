@@ -22,10 +22,10 @@ $Yoururl=str_replace('https://','',$Yoururl);
 $Yoururl=str_replace('/','',$Yoururl);     
         $yumi = new Typecho_Widget_Helper_Form_Element_Text('yumi', NULL, $Yoururl, _t('你的域名'), _t('<style>#alexac:after {
 content: " ?>";
-  color: red;
+color: red;
 }#alexac:before {
 content: "<?php ";
-  color: red;
+color: red;
 }</style><div style="
     background: #fff;
     padding: 10px;
